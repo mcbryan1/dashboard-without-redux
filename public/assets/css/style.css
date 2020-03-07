@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 565px !important; 
+    position: relative;
+}
+.all:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    opacity: .5;
+}
+.nav-b{
+    height: 100px !important;
+    background-color: transparent;
+    border: none;
+}
+.nav-a img{
+    margin-left: 10px;
+}
+.nav-ul ul li{
+    padding: 20px;
+}
+.nav-ul ul li a{
+    color: #fff !important;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.nav-ul ul li a:hover{
+    color: rgb(0, 99, 248) !important;
+    
+}
+.nav-ul .active a{
+    border: 1px solid #fff;
+    background: transparent !important;
+}
+.text {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    margin-top: 10%;
+}
+.text-t{
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+.text span{
+    color: rgb(0, 99, 248);
+}
+.butt{
+    position: relative;
+    height: 50px;
+    width: 140px;
+    font-size: 20px;
+}
+/*------------------------ Footer -----------------------*/
+.footer{
+    background: rgb(0, 99, 248);
+    height: 71px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.footer p{
+    color: white;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.footer i{
+    position: relative;
+    color: #fff;
+    padding-right: 23px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+.footer i:hover{
+    color: black;
+    cursor: pointer;
+}
+/*------------------------------- Startup Css -------------------------*/
+.nav-c{
+    border: none;
+    background: rgb(0, 99, 248);
+    height: 72px !important;
+    border-radius: 0px;
+    margin: 0px;
+}
+.nav-c img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.nav-c ul li{
+    padding-right: 20px !important;
+    font-size: 16px;
+}
+.nav-c ul li a{
+    color: #fff !important;
+    margin-top: 12px;
+}
+.nav-c ul li a:hover{
+    color: #000 !important;
+}
+.form-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.search-field{
+    height: 40px;
+    padding: 10px;
+    margin-right: 0px;
+    width: 890px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.search{
+    background: rgb(241, 241, 241);
+}
+.search-btn{
+    height: 38px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+.startup img{
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    width: 90px;
+}
+.startup-text h3{
+   color: rgb(0, 99, 248);
+   font-size: 20px;
+   margin-top: 0px;
+}
+.startup-text p{
+    font-size: 14px;
+    font-family:  tahoma;
+}
+hr{
+    background: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(207, 207, 207);
+}
+.search-bttn{
+    margin-left: 0px;
+    border-radius: 5px;
+    background: transparent !important;
+    color: rgb(0, 99, 248);
+}
+.acti a{
+    border: 1px solid #fff;
+    background: transparent !important;
+}
+.search-bttn:hover{
+    background: rgb(0, 99, 248) !important;
+    color: #fff;
+}
+.start img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.str img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+/*-------------------------------- Sign Up CSS ------------------------*/
+.sign-up{
+    background: rgb(241, 241, 241);
+}
+.sign-text h1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.search-fiel{
+    height: 40px;
+    padding: 10px;
+    margin-right: 0px;
+    width: 690px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.form-text{
+    font-size: 18px;
+}
+.bttn{
+    margin-bottom: 26px;
+}
+/*-------------------------------- Login CSS ---------------------------*/
+.bttnn{
+    margin-bottom: 14em;
+}
